@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\bin\Debug\BookFinderApp.exe.config
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\bin\Debug\BookFinderApp.exe
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\bin\Debug\BookFinderApp.pdb
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.Form1.resources
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.exe
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.pdb
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.AcessLevel1_Form.resources
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.AcessLevel2_Form.resources
+C:\Users\Administrator\Desktop\BookFinderFolder\BookFinderApp\BookFinderApp\obj\Debug\BookFinderApp.AcessLevel3_Form.resources

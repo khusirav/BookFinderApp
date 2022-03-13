@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3932BD0-5B6C-45B8-B974-A945B380CE38}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BookFinderApp</RootNamespace>
+    <AssemblyName>BookFinderApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcessLevel1_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcessLevel1_Form.Designer.cs">
+      <DependentUpon>AcessLevel1_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AcessLevel2_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcessLevel2_Form.Designer.cs">
+      <DependentUpon>AcessLevel2_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AcessLevel3_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcessLevel3_Form.Designer.cs">
+      <DependentUpon>AcessLevel3_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookFinderDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookFinderDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BookFinderDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookFinderDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BookFinderDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookFinderDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AcessLevel1_Form.resx">
+      <DependentUpon>AcessLevel1_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcessLevel2_Form.resx">
+      <DependentUpon>AcessLevel2_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcessLevel3_Form.resx">
+      <DependentUpon>AcessLevel3_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="BookFinderDataSet.xsc">
+      <DependentUpon>BookFinderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BookFinderDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookFinderDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookFinderDataSet.xss">
+      <DependentUpon>BookFinderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BookFinderDataSet1.xsc">
+      <DependentUpon>BookFinderDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BookFinderDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookFinderDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookFinderDataSet1.xss">
+      <DependentUpon>BookFinderDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BookFinderDataSet2.xsc">
+      <DependentUpon>BookFinderDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BookFinderDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookFinderDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookFinderDataSet2.xss">
+      <DependentUpon>BookFinderDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
